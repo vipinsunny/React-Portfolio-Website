@@ -6,7 +6,8 @@
 .project-container{
     max-width: 1140px;
     margin: auto;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
 padding-bottom: 5rem;
@@ -20,7 +21,9 @@ padding-bottom: 5rem;
 .project-card img{
     width: 100%;
 }
-
+.btn{
+    width: 500px;
+}
 .project-title{
 color: #fff;
 padding: 1rem 0;;
