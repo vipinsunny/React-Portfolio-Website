@@ -7,7 +7,9 @@
     flex-wrap: wrap;
     height: 100%;
 }
-
+.btn{
+    width: 100%;
+}
 .about .left{
     text-align: center;
     margin: auto;
